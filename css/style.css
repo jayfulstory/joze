@@ -20,7 +20,7 @@ h3 {
 }
 
 p {
-    line-height: 2;
+    line-height: 2.25;
     margin: 0;
 }
 
@@ -38,6 +38,8 @@ ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    padding: 0;
+    margin: 16px 240px 16px 240px;
 }
 
 ul li {
@@ -48,6 +50,10 @@ ul li {
 ul li a {
     text-decoration: none;
     color: black;
+    transition: 0.3s;
+}
+ul li a:hover {
+  color: #4597D3;
 }
 
 
@@ -205,7 +211,7 @@ iframe {
 
 .staffName {
     font-weight: bold;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 /* footer***** */
